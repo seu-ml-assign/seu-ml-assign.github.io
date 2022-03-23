@@ -8,9 +8,9 @@ LaTeX Template for Southeast University Machine Learning Assignment
 
 ***
 
-> - GitHub Project Site: https://tvj.one/ml-tex
-> - CTAN: https://ctan.org/pkg/seu-ml-assign
-> - Website: https://seu-ml-assign.github.io
+> - GitHub Project Site: [https://tvj.one/ml-tex](https://tvj.one/ml-tex)
+> - CTAN: [https://ctan.org/pkg/seu-ml-assign](https://ctan.org/pkg/seu-ml-assign)
+> - Website: [https://seu-ml-assign.github.io](https://seu-ml-assign.github.io)
 
 ## Class and Options
 This project provides the `seu-ml-assign` class.
@@ -27,44 +27,29 @@ This project provides the `seu-ml-assign` class.
 | `12pt` | Set font size as 12 points. |
 
 ## Commands and Usage
-Please refer to the [documentation](seu-ml-assign-doc.pdf).
+Please refer to the [documentation](http://mirrors.ctan.org/macros/latex/contrib/seu-ml-assign/seu-ml-assign-doc.pdf).
 
 The main higher level commands provided in this template are `\problem[<points>]{title}` and `\subproblem{title}`.
 
 ## Publication
 This project has been contained in [**CTAN**](https://ctan.org/pkg/seu-ml-assign), and so is in **TeX Live**.
 
-<details><summary>Install on TeX Live</summary>
-  <p>
-    
+### Install on TeX Live
 ```bash
 tlmgr install seu-ml-assign
 ```
-    
-  </p>
-</details>
 
-<details><summary>Install via GitHub Project</summary>
-  <p>
-    
+### Install via GitHub Project
 ```bash
 git clone https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template.git
 ```
-    
-  </p>
-</details>
 
-<details><summary>Install from CTAN</summary>
-  <p>
-    
-Go to https://ctan.org/pkg/seu-ml-assign to download the package.
-    
-  </p>
-</details>
+### Install from CTAN
+
+Go to [https://ctan.org/pkg/seu-ml-assign](https://ctan.org/pkg/seu-ml-assign) to download the package.
 
 ## Issues
 Please go to [issues](https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template/issues) to report them if any.
-
 
 ## TODOs
 - [x] Class Definition
