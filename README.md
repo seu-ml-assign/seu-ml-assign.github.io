@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+# SEU-ML-Assign LaTeX Template
+LaTeX Template for Southeast University Machine Learning Assignment
 
-You can use the [editor on GitHub](https://github.com/seu-ml-assign/seu-ml-assign.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+***
+<p align="center">
+   <a href="https://ctan.org/pkg/seu-ml-assign">CTAN</a> • <a href="https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template">GitHub</a> • <a href="http://mirrors.ctan.org/macros/latex/contrib/seu-ml-assign/seu-ml-assign-doc.pdf">Documentation</a> • <a href="https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template/blob/master/SEU-ML-Assign-sample.pdf">Sample</a> • <a href="https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template/issues">Issues</a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
 
-### Markdown
+> - GitHub Project Site: https://tvj.one/ml-tex
+> - CTAN: https://ctan.org/pkg/seu-ml-assign
+> - Website: https://seu-ml-assign.github.io
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Class and Options
+This project provides the `seu-ml-assign` class.
 
-```markdown
-Syntax highlighted code block
+| Option | Explanation | Default |
+| - | - | :-: |
+| `solution` | Write solutions (for students). | • |
+| `problem` | Write problem sets (for instructors). |
+| `oneside` | One-sided document. | • |
+| `twoside` | Two-sided document. |
+| `9pt` | Set font size as 9 points. |
+| `10pt` | Set font size as 10 points. | • |
+| `11pt` | Set font size as 11 points. |
+| `12pt` | Set font size as 12 points. |
 
-# Header 1
-## Header 2
-### Header 3
+## Commands and Usage
+Please refer to the [documentation](seu-ml-assign-doc.pdf).
 
-- Bulleted
-- List
+The main higher level commands provided in this template are `\problem[<points>]{title}` and `\subproblem{title}`.
 
-1. Numbered
-2. List
+## Publication
+This project has been contained in [**CTAN**](https://ctan.org/pkg/seu-ml-assign), and so is in **TeX Live**.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<details><summary>Install on TeX Live</summary>
+  <p>
+    
+```bash
+tlmgr install seu-ml-assign
 ```
+    
+  </p>
+</details>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<details><summary>Install via GitHub Project</summary>
+  <p>
+    
+```bash
+git clone https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template.git
+```
+    
+  </p>
+</details>
 
-### Jekyll Themes
+<details><summary>Install from CTAN</summary>
+  <p>
+    
+Go to https://ctan.org/pkg/seu-ml-assign to download the package.
+    
+  </p>
+</details>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seu-ml-assign/seu-ml-assign.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Issues
+Please go to [issues](https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template/issues) to report them if any.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## TODOs
+- [x] Class Definition
+- [x] Example `tex` File
+- [x] Class Documentation
+- [x] Class Website
+- [x] Submission to CTAN
+- [ ] Demonstration Video
+- [ ] More Flexible Usage
+
+## License
+This project is licensed under the [MIT License](https://github.com/Teddy-van-Jerry/SEU-ML-Assign_LaTeX_Template/blob/master/LICENSE).
